@@ -1,0 +1,343 @@
+<!doctype html>
+<!--
+
+
+This code is auto-generated
+Any changes you make will be overwritten when you run "make"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<script>
+var z = "";
+var ctrl = false;
+var shift = false;
+function doSearch(toAddress, inputSelector) {
+    var s = document.getElementById(inputSelector + 'i').value;
+    //alert(toAddress);
+    document.location = toAddress.replace("%s", encodeURIComponent(s));
+}
+function pi() {
+    if (ctrl && shift) {
+        window.location = 'https://dilloncutaiar.com';
+    }
+}
+function arr(thing) {
+    return Array.prototype.slice.call(thing, 0);
+}
+function collapse_one() {
+    var x = arr(document.getElementsByClassName(z));
+    x.forEach(function(elem) { elem.style.display = "none"; })
+    x[0].parentNode.style.zIndex = 0;
+    document.getElementById(z).style.color = '#000000';
+    z = z.substring(0, z.length - 1);
+if (z == '') {
+document.getElementById(z+'g').onclick = function() { if (z != "") { collapse("") } key({keyCode:71 }) };
+}
+
+
+
+if (z == '') {
+document.getElementById(z+'c').onclick = function() { if (z != "") { collapse("") } key({keyCode:67 }) };
+}
+
+
+
+if (z == '') {
+document.getElementById(z+'m').onclick = function() { if (z != "") { collapse("") } key({keyCode:77 }) };
+}
+
+
+
+
+if (z == '') {
+document.getElementById(z+'w').onclick = function() { if (z != "") { collapse("") } key({keyCode:87 }) };
+}
+
+}
+function collapse(new_z) {
+    while(z.length > new_z.length) {
+        collapse_one();
+    }
+}
+function keyup(event) {
+    event = event || window.event;
+    var x = event.which || event.keyCode;
+    if (x == 17) {
+        ctrl = false;
+    }
+    if (x == 16) {
+        shift = false;
+    }
+
+}
+function key(event) {
+    event = event || window.event;
+    if (event.keyCode == 27) {
+        if (z.length == 0) {
+            return;
+        }
+        collapse_one()
+        return;
+    }
+    var x = event.which || event.keyCode;
+    if (x == 17) {
+        ctrl = true;
+    }
+    if (x == 16) {
+        shift = true;
+    }
+
+if (71 == x && z == '') {
+document.getElementById(z+'g').style.color = '#2E86C1';
+z = z + 'g';
+var x = arr(document.getElementsByClassName(z));
+x.forEach(function(elem) { elem.style.display = 'inline-block'; })
+x[0].parentNode.style.zIndex = 10 * x[0].id.length;
+var x = document.getElementById(z);
+x.onclick = function() { collapse('');}
+}
+if (69 == x && z == 'g') {
+document.getElementById(z+'e').style.color = '#2E86C1';
+window.location = 'https://mail.google.com/mail/u/0/#inbox';
+}
+if (67 == x && z == 'g') {
+document.getElementById(z+'c').style.color = '#2E86C1';
+window.location = 'https://calendar.google.com/calendar/r';
+}
+if (68 == x && z == 'g') {
+document.getElementById(z+'d').style.color = '#2E86C1';
+window.location = 'https://drive.google.com/drive/my-drive';
+}
+if (67 == x && z == '') {
+document.getElementById(z+'c').style.color = '#2E86C1';
+z = z + 'c';
+var x = arr(document.getElementsByClassName(z));
+x.forEach(function(elem) { elem.style.display = 'inline-block'; })
+x[0].parentNode.style.zIndex = 10 * x[0].id.length;
+var x = document.getElementById(z);
+x.onclick = function() { collapse('');}
+}
+if (67 == x && z == 'c') {
+document.getElementById(z+'c').style.color = '#2E86C1';
+window.location = 'https://canvas.vt.edu/';
+}
+if (83 == x && z == 'c') {
+document.getElementById(z+'s').style.color = '#2E86C1';
+window.location = 'https://courses.cs.vt.edu/~cs3214/spring2019/';
+}
+if (84 == x && z == 'c') {
+document.getElementById(z+'t').style.color = '#2E86C1';
+window.location = 'https://app.tophat.com/e/825351/lecture/';
+}
+if (77 == x && z == '') {
+document.getElementById(z+'m').style.color = '#2E86C1';
+z = z + 'm';
+var x = arr(document.getElementsByClassName(z));
+x.forEach(function(elem) { elem.style.display = 'inline-block'; })
+x[0].parentNode.style.zIndex = 10 * x[0].id.length;
+var x = document.getElementById(z);
+x.onclick = function() { collapse('');}
+}
+if (83 == x && z == 'm') {
+document.getElementById(z+'s').style.color = '#2E86C1';
+window.location = 'https://soundcloud.com/stream';
+}
+if (56 == x && z == 'm') {
+document.getElementById(z+'8').style.color = '#2E86C1';
+window.location = 'https://8tracks.com/login';
+}
+if (89 == x && z == '') {
+document.getElementById(z+'y').style.color = '#2E86C1';
+window.location = 'https://www.youtube.com/';
+}
+if (72 == x && z == '') {
+document.getElementById(z+'h').style.color = '#2E86C1';
+window.location = 'https://github.com/';
+}
+if (87 == x && z == '') {
+document.getElementById(z+'w').style.color = '#2E86C1';
+z = z + 'w';
+var x = arr(document.getElementsByClassName(z));
+x.forEach(function(elem) { elem.style.display = 'inline-block'; })
+x[0].parentNode.style.zIndex = 10 * x[0].id.length;
+var x = document.getElementById(z);
+x.onclick = function() { collapse('');}
+var x = document.getElementById(z + 'w' + 'i');
+x.focus();
+event.preventDefault();
+}
+
+        return true;
+}
+document.onkeydown = key;
+document.onkeyup = keyup;
+
+var ol = function ol() {
+    document.getElementById("today").innerHTML = ""; // clear before refreshing
+    request = new XMLHttpRequest();
+    request.onreadystatechange = function() {
+        if(request.readyState === 4) {
+            if(request.status === 200) {
+                var messages = request.responseText.split("\n");
+                var div = document.getElementById("today")
+                for (var i = 0; i < messages.length; i++) {
+                    if (messages[i].trim().length == 0) continue;
+                    var span = document.createElement("span")
+                    span.classList.add("message")
+	                span.style.marginTop = (5 * i).toString() + "px";
+                    span.innerText = messages[i]
+                    div.appendChild(span);
+                    div.appendChild(document.createElement("br"));
+                }
+            }
+        }
+    }
+    request.open('GET', 'http://127.0.0.1/today', true);
+    request.send(null);
+    setTimeout(ol, 60*1000); // refresh every minute
+}
+</script></head>
+<body class="" onLoad='ol();'><div id="content">
+<a class='' id='g'  onclick='collapse(""); key({keyCode:71})'>/google/</a>
+<span style='position: absolute; left: 200px; top: 0px; width: 300px;'>
+<a class='g' id='ge' style='display: none;' onclick='collapse("g"); key({keyCode:69})'>/email</a>
+<br />
+<a class='g' id='gc' style='display: none;' onclick='collapse("g"); key({keyCode:67})'>/calendar</a>
+<br />
+<a class='g' id='gd' style='display: none;' onclick='collapse("g"); key({keyCode:68})'>/drive</a>
+<br />
+</span>
+<br />
+<a class='' id='c'  onclick='collapse(""); key({keyCode:67})'>/courses/</a>
+<span style='position: absolute; left: 200px; top: 0px; width: 300px;'>
+<a class='c' id='cc' style='display: none;' onclick='collapse("c"); key({keyCode:67})'>/canvas</a>
+<br />
+<a class='c' id='cs' style='display: none;' onclick='collapse("c"); key({keyCode:83})'>/systems</a>
+<br />
+<a class='c' id='ct' style='display: none;' onclick='collapse("c"); key({keyCode:84})'>/tophat</a>
+<br />
+</span>
+<br />
+<a class='' id='m'  onclick='collapse(""); key({keyCode:77})'>/music/</a>
+<span style='position: absolute; left: 200px; top: 0px; width: 300px;'>
+<a class='m' id='ms' style='display: none;' onclick='collapse("m"); key({keyCode:83})'>/soundcloud</a>
+<br />
+<a class='m' id='m8' style='display: none;' onclick='collapse("m"); key({keyCode:56})'>/8tracks</a>
+<br />
+</span>
+<br />
+<a class='' id='y'  onclick='collapse(""); key({keyCode:89})'>/youtube</a>
+<br />
+<a class='' id='h'  onclick='collapse(""); key({keyCode:72})'>/github</a>
+<br />
+<a class='' id='w'  onclick='collapse(""); key({keyCode:87})'>/wikipedia?</a>
+<span style='position: absolute; left: 200px; top: 0px; width: 300px;'>
+<form class='w' id='ww' action='javascript:doSearch("https://en.wikipedia.org/wiki/%s", "ww")' style='display: none;'>
+<input onblur='this.value = "";' type='text' name='input' id='wwi' placeholder='Search Wikipedia' />
+</form>
+</span>
+<br />
+</div><div id="today"></div><div id="pi" onclick='pi();'>π</div></body></html>
