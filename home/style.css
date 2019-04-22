@@ -1,0 +1,87 @@
+/*
+   Homepage generator
+   Copyright (C) 2019  Niles Rogoff me@niles.xyz
+
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+body {
+	font-family:helvetica;
+	background:url("background.png") no-repeat center/cover fixed;
+	/*color: #595959;*/
+	/*color: #eeeeee;*/
+	color: rgba(238,238,238, 0.8);
+}
+#content {
+	margin-left: 5%;
+	margin-top: 50px;
+	font-family: "Camcorder Monospaced", "Raleway", sans-serif;
+	position:relative;
+	font-size: 24px;
+}
+a {
+	/*color: #595959;*/
+	color: #000000;
+	transition: color .1s;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration:underline;
+}
+#pi {
+	font-size: 0.8em;
+	position: fixed;
+	bottom: 5px;
+	right: 5px;
+	color: #eeeeee;
+	background-color: rgba(0,0,0,0.5);
+	padding: 5px;
+	text-align: right;
+}
+
+input {
+	font-size: 1em;
+	outline: none;
+	border: solid 1px #ddd;
+	padding: 10px;
+	margin-top: 100px; /* dirty hack, can be removed */
+	text-align: center;
+	box-shadow: 0 0 10px 1px #27454F;
+	border: solid 4px #27454F;
+}
+#today {
+	margin-left: 50px;
+	position: absolute;
+	bottom: 50px;
+	font-family: "Helvetica", sans-serif;
+	font-size: 16px;
+	/*
+	box-shadow: 0 0 10px 1px #27454F;
+	background-color: rgba(39, 69, 79, 0.9);
+	*/
+	padding: 8px;
+	display: inline-block;
+	/*font-weight: bold;**/
+	line-height: 1.6;
+	width: 80%;
+	/*color: lightred;*/
+}
+.message {
+	height: 0px;
+	position: absolute;
+	border-left: 25px solid rgba(238,238,238, 0.8);
+	border-bottom: 25px solid #1A1210;
+	padding-right: 8px;
+}
+
